@@ -1,10 +1,27 @@
 extern crate is_odd;
 use is_odd::IsOdd;
-
 fn main() {
-    println!("Hello, world!");
-    println!("{}", sum_odd_numbers(100000000));
-    println!("{}", sum_odd_numbers_func(100000000));
+
+    use std::time::Instant;
+
+    let now = Instant::now();
+    {
+        println!("{}", sum_odd_numbers(1000000000));
+    }
+    let elapsed = now.elapsed();
+
+
+    let nowF = Instant::now();
+    {
+        println!("{}", sum_odd_numbers_func(1000000000));
+    }
+    let elapsedF = nowF.elapsed();
+
+    
+    println!("Procedural time: {:.8?}", elapsed);
+    println!("FunctionalTime time: {:.8?}", elapsedF);
+
+
 }
 
 fn sum_odd_numbers(n: u64) -> u64 {
