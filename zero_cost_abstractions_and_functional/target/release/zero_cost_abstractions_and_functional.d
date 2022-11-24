@@ -1,0 +1,1 @@
+/home/jona/Desktop/octavo\ cuatrimestre/paradigmas\ y\ lenguajes\ de\ programación/promocion\ Rust/zero_cost_abstractions_and_functional/target/release/zero_cost_abstractions_and_functional: /home/jona/Desktop/octavo\ cuatrimestre/paradigmas\ y\ lenguajes\ de\ programación/promocion\ Rust/zero_cost_abstractions_and_functional/src/main.rs
