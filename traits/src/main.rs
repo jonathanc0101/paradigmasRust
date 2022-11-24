@@ -1,15 +1,15 @@
-pub trait Summary {
+pub trait Summary { //interfaz
     fn summarize(&self) -> String;
 }
 
-pub struct NewsArticle {
+pub struct NewsArticle { //struct (datos)
     pub headline: String,
     pub location: String,
     pub author: String,
     pub content: String,
 }
 
-impl Summary for NewsArticle {
+impl Summary for NewsArticle { //le damos metodos al struct
     fn summarize(&self) -> String {
         format!("{}, by {} ({})", self.headline, self.author, self.location)
     }
@@ -39,5 +39,6 @@ fn main() {
         retweet: false,
     };
 
+    //llamada al metodo del objeto
     println!("1 new tweet: {}", tweet.summarize());
 }

@@ -25,6 +25,7 @@ fn main() {
 }
 
 fn sum_odd_numbers(n: u64) -> u64 {
+    //procedural
     let mut acc = 0;
     for element in 0.. {
         if element >= n {
@@ -38,8 +39,9 @@ fn sum_odd_numbers(n: u64) -> u64 {
 }
 
 fn sum_odd_numbers_func(n: u64) -> u64 {
-    (0..)
-        .take_while(|element| element < &n)
+    // zero cost abstractions
+    (0..) // lista infinita
+        .take_while(|element| element < &n) // guarda/pattern matching
         .filter(|n| n.is_odd())
-        .fold(0, |sum, element| sum + element)
+        .fold(0, |sum, element| sum + element) //funcional
 }
