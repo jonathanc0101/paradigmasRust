@@ -1,0 +1,1 @@
+/home/jona/Desktop/octavo\ cuatrimestre/paradigmas\ y\ lenguajes\ de\ programación/promocion\ Rust/errors1/target/debug/errors1: /home/jona/Desktop/octavo\ cuatrimestre/paradigmas\ y\ lenguajes\ de\ programación/promocion\ Rust/errors1/src/main.rs
