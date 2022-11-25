@@ -1,0 +1,1 @@
+/home/jona/Desktop/octavo\ cuatrimestre/paradigmas\ y\ lenguajes\ de\ programación/promocion\ Rust/anti_aliasing/target/debug/anti_aliasing: /home/jona/Desktop/octavo\ cuatrimestre/paradigmas\ y\ lenguajes\ de\ programación/promocion\ Rust/anti_aliasing/src/main.rs
