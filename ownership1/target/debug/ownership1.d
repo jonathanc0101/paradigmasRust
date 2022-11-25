@@ -1,0 +1,1 @@
+/home/jona/Desktop/octavo\ cuatrimestre/paradigmas\ y\ lenguajes\ de\ programación/promocion\ Rust/ownership1/target/debug/ownership1: /home/jona/Desktop/octavo\ cuatrimestre/paradigmas\ y\ lenguajes\ de\ programación/promocion\ Rust/ownership1/src/main.rs
